@@ -1,16 +1,18 @@
 /* common styles and utilities */
 body{
-    background-color: rgba(248, 246, 246, 0.965);
+    background-color: rgba(250, 241, 241, 0.876);
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 h1{
     font-size: 32px;
-    color: #3a3a3a;
+    color: #3a3a3a; 
 }
+h4{
+    color: #333232;
+   }
 p{
-    font-size: 15px;
-    line-height: 18px;
+    font-size: 12px; 
 }
 /* banner-section styles */
 section{
@@ -37,9 +39,20 @@ section{
     color: white;
     font-weight: 700;
 }
+.another-buttons{
+    text-decoration: none;
+    color: rgba(223, 22, 95, 0.958);
+    float: right;
+    font-size: 16px;
+    font-weight: 700;
+    text-shadow: 1px solid white;
+    padding: 5px;
+    margin-left: 10px;
+}
  .set-width img{
      width: 80%;
  }
+ 
 /* footer styles */
 footer{
     background-color: #111;
@@ -89,3 +102,63 @@ footer{
     font-size: 1.1rem;
 }
 
+/* popular section */
+
+   .popular-section-title{
+       color: rgba(32, 30, 30, 0.882);
+       font-size: 24px;
+       margin-top: 3px;
+       margin-bottom: 50px;
+       text-align: center;
+    }
+   
+   /* courses styles */
+   .items{
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       grid-column-gap: 20px;
+       grid-row-gap: 20px;
+       margin-left: 25px;
+       padding: 3% 3%;
+      
+   }
+   .item{
+       border: 1px solid rgba(245, 239, 239, 0.924);
+       border-radius:  5px;
+       padding: 15px;
+       margin: 0px 0px;
+       box-shadow: 0px 0px 40px 0px #1a191926;     
+   }
+   .item .item-photo img{
+       height:200px;
+       width:200px;
+       margin:20px;
+   }
+   .item-name{
+       font-size: 18px;
+       color: #333232;
+   }
+   .item-info{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+   }
+   .fa-star{
+       font-size: 12px;
+   
+   }
+   .fa-star.filled{
+       color: #FFC014;
+       font-size: 12px;
+   }
+   .fa-star.empty{
+       color: #AEAEAE;
+   }
+
+   /*  Bonus section */
+   .feature-title{
+       color: rgba(2, 2, 34, 0.931);
+       font-weight: 700;
+       padding-right: 25px;
+       margin-right: 20px;
+   }
