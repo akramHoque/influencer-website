@@ -169,3 +169,35 @@ footer{
        padding-right: 25px;
        margin-right: 20px;
    }
+
+   /* Media Query */
+
+   /* mobile-devioces */
+
+   @media only screen and (max-width:688px) {
+
+    
+    section  {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .set-width{
+        width: 100%;
+        padding: 10%;
+    }
+    .set-width p{
+        margin-right: 20px;
+    }
+       .another-buttons{
+           float: left;
+           margin-left: 20px;
+       }
+   }
+
+   /* Tablet devices */
+   
+@media only screen and (min-width: 688px) and (max-width: 992px){
+    .items{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
