@@ -39,6 +39,7 @@ section{
     color: white;
     font-weight: 700;
 }
+
 .another-buttons{
     text-decoration: none;
     color: rgba(223, 22, 95, 0.958);
@@ -51,6 +52,12 @@ section{
 }
  .set-width img{
      width: 80%;
+ }
+ .set-width img:hover{
+    border: 3px solid #fff;
+    transition: width 2s, height 4s;
+    width: 350px;
+    height: 250px;
  }
  
 /* footer styles */
