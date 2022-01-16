@@ -172,7 +172,7 @@ footer{
 
    /* Media Query */
 
-   /* mobile-devioces */
+   /* mobile-devices */
 
    @media only screen and (max-width:688px) {
 
@@ -180,6 +180,9 @@ footer{
     section  {
         flex-direction: column;
         justify-content: center;
+    }
+    .items{
+        grid-template-columns: repeat(1, 1fr);
     }
     .set-width{
         width: 100%;
